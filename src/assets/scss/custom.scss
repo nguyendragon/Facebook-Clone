@@ -1,0 +1,94 @@
+// #swiper news item custom
+#news {
+    .swiper-button-disabled {
+        display: none !important;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #39393b;
+        color: #b0b3b8;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        transition: all 50ms;
+
+        &:hover {
+            background-color: #3e4042;
+        }
+
+        &:active {
+            background-color: #39393b;
+        }
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 16px;
+        font-weight: 800;
+    }
+}
+
+// #Tippy news item custom
+
+.tippy-arrow {
+    color: transparent;
+}
+
+// #Ant custom
+
+.ant-color-picker {
+    z-index: 10001 !important;
+}
+
+// #Emoji-picker-react custom
+
+.EmojiPickerReact .epr-body {
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 5px !important;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #888 !important;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #555 !important;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555 !important;
+    }
+}
+
+// #Editor React Quill
+
+#form-new-posts {
+    .ql-editor {
+        padding: 12px 0;
+        padding-bottom: 54px;
+
+        &.ql-blank::before {
+            color: #a2a5ab;
+            font-style: normal;
+            font-size: 24px;
+            left: 0;
+        }
+    }
+
+    .ql-container {
+        font-size: inherit;
+    }
+
+    .ql-tooltip {
+        display: none;
+    }
+}

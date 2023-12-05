@@ -1,0 +1,30 @@
+.icon-left-layout_homepage {
+    i {
+        width: 36px;
+        height: 36px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/4GR4KRf3hN2.png);
+
+        &.friend-icon {
+            background-position: 0px -296px;
+        }
+
+        &.saved-icon {
+            background-position: 0px -185px;
+        }
+
+        &.video-icon {
+            background-position: 0px -518px;
+        }
+
+        &.memory-icon {
+            background-position: 0px -444px;
+        }
+
+        &.group-icon {
+            background-position: 0px -37px;
+        }
+    }
+}

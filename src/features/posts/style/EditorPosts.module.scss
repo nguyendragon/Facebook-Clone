@@ -1,0 +1,24 @@
+.main-new-posts {
+
+    /* width */
+    &::-webkit-scrollbar {
+        width: 8px !important;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: transparent !important;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #464748 !important;
+        border-radius: 15px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #464748 !important;
+        border-radius: 15px;
+    }
+}

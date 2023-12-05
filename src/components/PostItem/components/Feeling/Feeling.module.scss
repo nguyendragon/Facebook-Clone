@@ -1,0 +1,26 @@
+.feeling {
+    background: rgba(25, 25, 25, 1);
+    transform: translate(-15%, -65px);
+    animation-name: showToTop;
+    animation-duration: 0.3s;
+
+    .item {
+        transition: 0.25s all;
+
+        &:hover {
+            scale: 1.25;
+        }
+    }
+}
+
+@keyframes showToTop {
+    from {
+        transform: translate(-15%, -40px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(-15%, -65px);
+    }
+}
